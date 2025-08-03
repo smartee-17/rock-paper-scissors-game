@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Rock Paper scissors game</title>
+  <link rel="icon" type="image/png" href="Emojis/rock-paper-scissors.png">
 
-  <link rel="stylesheet" href="Styles/styles.css">
+  <link rel="stylesheet" href="style.css">
 
   <style>
    
@@ -16,55 +17,66 @@
 </head>
 
 <body>
+
    
-  <p class="title">
-   Rock Paper Scissors.
-  </p>
 
-  <button
+    <p class="title">
+      Welcome to  the OG's area
+     </p>
 
-  class="move-icon"
+     <p>
+       Pick your ammo
+     </p>
+     
+     <div class="button-div">
 
-  onclick="
-  
-   playGame('rock');
-
-">
-
- <img src="Emojis/rock-emoji.png" 
- alt="">
-
-</button>
-
-  <button
-
-  class="move-icon"
-  
-  onclick="
-    
-    playGame('paper');
+     <button
    
-">
-  
-  <img src="Emojis/paper-emoji.png" alt=""
-  >
-
-</button>
-
-  <button
-
-  class="move-icon"
-  
-  onclick="
+     class="move-icon"
    
-    playGame('scissors');
+     onclick="
+     
+      playGame('rock');
+   
+   ">
+   
+    <img src="Emojis/rock-emoji.png" 
+    alt="">
+   
+   </button>
+   
+     <button
+   
+     class="move-icon"
+     
+     onclick="
+       
+       playGame('paper');
+      
+   ">
+     
+     <img src="Emojis/paper-emoji.png" alt=""
+     >
+   
+   </button>
+   
+     <button
+   
+     class="move-icon"
+     
+     onclick="
+      
+       playGame('scissors');
+   
+       
+           ">
+     
+      <img src="Emojis/scissors-emoji.png" alt="">
+   
+   </button>
 
-    
-        ">
+  </div>
   
-   <img src="Emojis/scissors-emoji.png" alt="">
-
-</button>
 
 <!--Paragraph Starts-->
 
@@ -99,7 +111,7 @@ class="reset-score-button"
 
 </button>
 
-<script src="scripts/010-rock-paper-rock-scissors.js"></script>
+<script src="script.js"></script>
 
 
 
